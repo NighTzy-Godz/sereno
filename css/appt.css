@@ -1,0 +1,674 @@
+@media screen and (min-width: 1500px) {
+  .appt {
+    padding: 60px 0px;
+    background: var(--mainColor-);
+  }
+
+  .appt_container {
+    display: flex;
+    gap: 50px;
+  }
+
+  .left_appt {
+    width: 60%;
+  }
+
+  .appt_text {
+    margin-bottom: 30px;
+  }
+
+  .appt_text h1 {
+    font-size: 60px;
+    color: var(--textColor-);
+    line-height: 70px;
+  }
+
+  .appt_text p {
+    width: 80%;
+    font-size: 18px;
+    color: var(--servicesColor-);
+  }
+
+  .appt_dtls_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .appt_dtls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  .appt_dtls img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .mini_dtls_label {
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--textColor-);
+    line-height: 25px;
+  }
+
+  .mini_dtls_data {
+    font-size: 16px;
+
+    color: var(--servicesColor-);
+    line-height: 20px;
+  }
+
+  .right_appt {
+    width: 40%;
+  }
+
+  .form_container {
+    gap: 20px;
+    display: flex;
+  }
+
+  .input_container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .input_container label {
+    font-size: 16px;
+    color: var(--servicesColor-);
+    font-weight: 600;
+
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .input_container input {
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid var(--mainColor-);
+    color: var(--textColor-);
+  }
+
+  .form_btn button {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 30px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid var(--textColor-);
+    background: var(--textColor-);
+    color: var(--servicesColor-);
+  }
+
+  .form_btn button:hover {
+    background: #4d4545;
+    border: 1px solid #4d4545;
+  }
+}
+
+@media screen and (1200px <= width <= 1500px) {
+  .appt {
+    padding: 60px 0px;
+    background: var(--mainColor-);
+  }
+
+  .appt_container {
+    display: flex;
+    gap: 50px;
+  }
+
+  .left_appt {
+    width: 60%;
+  }
+
+  .appt_text {
+    margin-bottom: 30px;
+  }
+
+  .appt_text h1 {
+    font-size: 60px;
+    color: var(--textColor-);
+    line-height: 70px;
+  }
+
+  .appt_text p {
+    width: 80%;
+    font-size: 18px;
+    color: var(--servicesColor-);
+  }
+
+  .appt_dtls_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .appt_dtls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  .appt_dtls img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .mini_dtls_label {
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--textColor-);
+    line-height: 25px;
+  }
+
+  .mini_dtls_data {
+    font-size: 16px;
+
+    color: var(--servicesColor-);
+    line-height: 20px;
+  }
+
+  .right_appt {
+    width: 40%;
+  }
+
+  .form_container {
+    gap: 20px;
+    display: flex;
+  }
+
+  .input_container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .input_container label {
+    font-size: 16px;
+    color: var(--servicesColor-);
+    font-weight: 600;
+
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .input_container input {
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid var(--mainColor-);
+    color: var(--textColor-);
+  }
+
+  .form_btn button {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 30px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid var(--textColor-);
+    background: var(--textColor-);
+    color: var(--servicesColor-);
+  }
+
+  .form_btn button:hover {
+    background: #4d4545;
+    border: 1px solid #4d4545;
+  }
+}
+@media screen and (992px <= width <= 1199px) {
+  .appt {
+    padding: 60px 0px;
+    background: var(--mainColor-);
+  }
+
+  .appt_container {
+    display: flex;
+    gap: 30px;
+  }
+
+  .left_appt {
+    width: 60%;
+  }
+
+  .appt_text {
+    margin-bottom: 30px;
+  }
+
+  .appt_text h1 {
+    font-size: 58px;
+    color: var(--textColor-);
+    line-height: 70px;
+  }
+
+  .appt_text p {
+    width: 90%;
+    font-size: 17px;
+    color: var(--servicesColor-);
+  }
+
+  .appt_dtls_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .appt_dtls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  .appt_dtls img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .mini_dtls_label {
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--textColor-);
+    line-height: 25px;
+  }
+
+  .mini_dtls_data {
+    font-size: 16px;
+
+    color: var(--servicesColor-);
+    line-height: 20px;
+  }
+
+  .right_appt {
+    width: 40%;
+  }
+
+  .form_container {
+    gap: 20px;
+    display: flex;
+  }
+
+  .input_container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .input_container label {
+    font-size: 15px;
+    color: var(--servicesColor-);
+    font-weight: 600;
+
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .input_container input {
+    padding: 8px 13px;
+    font-size: 17px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid var(--mainColor-);
+    color: var(--textColor-);
+  }
+
+  .form_btn button {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 30px;
+    height: 37px;
+    font-size: 17px;
+    border: 1px solid var(--textColor-);
+    background: var(--textColor-);
+    color: var(--servicesColor-);
+  }
+
+  .form_btn button:hover {
+    background: #4d4545;
+    border: 1px solid #4d4545;
+  }
+}
+
+@media screen and (768px <= width <= 992px) {
+  .appt {
+    padding: 60px 0px;
+    background: var(--mainColor-);
+  }
+
+  .appt_container {
+    display: flex;
+    gap: 30px;
+  }
+
+  .left_appt {
+    width: 60%;
+  }
+
+  .appt_text {
+    margin-bottom: 30px;
+  }
+
+  .appt_text h1 {
+    font-size: 53px;
+    color: var(--textColor-);
+    line-height: 50px;
+  }
+
+  .appt_text p {
+    font-size: 17px;
+    color: var(--servicesColor-);
+  }
+
+  .appt_dtls_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .appt_dtls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  .appt_dtls img {
+    width: 27px;
+    height: 27px;
+  }
+
+  .mini_dtls_label {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--textColor-);
+    line-height: 25px;
+  }
+
+  .mini_dtls_data {
+    font-size: 15.5px;
+
+    color: var(--servicesColor-);
+    line-height: 15px;
+  }
+
+  .right_appt {
+    width: 40%;
+  }
+
+  .input_container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .input_container label {
+    font-size: 15px;
+    color: var(--servicesColor-);
+    font-weight: 600;
+
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .input_container input {
+    padding: 8px 13px;
+    font-size: 17px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid var(--mainColor-);
+    color: var(--textColor-);
+  }
+
+  .form_btn button {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 30px;
+    height: 37px;
+    font-size: 16px;
+    border: 1px solid var(--textColor-);
+    background: var(--textColor-);
+    color: var(--servicesColor-);
+  }
+
+  .form_btn button:hover {
+    background: #4d4545;
+    border: 1px solid #4d4545;
+  }
+}
+
+@media screen and (575px <= width <= 768px) {
+  .appt {
+    padding: 50px 0px;
+    background: var(--mainColor-);
+  }
+
+  .left_appt {
+    margin-bottom: 20px;
+  }
+
+  .appt_text {
+    margin-bottom: 30px;
+  }
+
+  .appt_text h1 {
+    font-size: 53px;
+    color: var(--textColor-);
+    line-height: 50px;
+  }
+
+  .appt_text p {
+    font-size: 17px;
+    color: var(--servicesColor-);
+  }
+
+  .appt_dtls_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .appt_dtls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  .appt_dtls img {
+    width: 27px;
+    height: 27px;
+  }
+
+  .mini_dtls_label {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--textColor-);
+    line-height: 25px;
+  }
+
+  .mini_dtls_data {
+    font-size: 15.5px;
+
+    color: var(--servicesColor-);
+    line-height: 15px;
+  }
+
+  .form_container {
+    margin-bottom: 20px;
+  }
+
+  .input_container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .input_container label {
+    font-size: 14px;
+    color: var(--servicesColor-);
+    font-weight: 600;
+
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .input_container input {
+    padding: 8px 13px;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid var(--mainColor-);
+    color: var(--textColor-);
+  }
+
+  .form_btn button {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 30px;
+    height: 37px;
+    font-size: 16px;
+    border: 1px solid var(--textColor-);
+    background: var(--textColor-);
+    color: var(--servicesColor-);
+  }
+
+  .form_btn button:hover {
+    background: #4d4545;
+    border: 1px solid #4d4545;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .appt {
+    padding: 50px 0px;
+    background: var(--mainColor-);
+  }
+
+  .left_appt {
+    margin-bottom: 20px;
+  }
+
+  .appt_text {
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+
+  .appt_text h1 {
+    font-size: 53px;
+    color: var(--textColor-);
+    line-height: 50px;
+    text-overflow: ellipsis;
+  }
+
+  .appt_text p {
+    font-size: 17px;
+    color: var(--servicesColor-);
+  }
+
+  .appt_dtls_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .appt_dtls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  .appt_dtls img {
+    width: 27px;
+    height: 27px;
+  }
+
+  .mini_dtls_label {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--textColor-);
+    line-height: 25px;
+  }
+
+  .mini_dtls_data {
+    font-size: 15.5px;
+
+    color: var(--servicesColor-);
+    line-height: 15px;
+  }
+
+  .form_container {
+    margin-bottom: 20px;
+  }
+
+  .input_container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .input_container label {
+    font-size: 14px;
+    color: var(--servicesColor-);
+    font-weight: 600;
+
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .input_container input {
+    padding: 8px 13px;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid var(--mainColor-);
+    color: var(--textColor-);
+  }
+
+  .form_btn button {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    height: 37px;
+    font-size: 16px;
+    border: 1px solid var(--textColor-);
+    background: var(--textColor-);
+    color: var(--servicesColor-);
+  }
+
+  .form_btn button:hover {
+    background: #4d4545;
+    border: 1px solid #4d4545;
+  }
+}

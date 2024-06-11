@@ -1,0 +1,17 @@
+@font-face {
+  font-family: gelion;
+  src: url("/fonts/Gelion Regular.ttf");
+}
+
+@font-face {
+  font-family: bebas;
+  src: url("/fonts/BebasNeue-Regular.ttf");
+}
+
+:root {
+  --textColor-: #2f2c2c;
+  --subBlack-: #757575;
+  --servicesColor-: #fff;
+  --bgColor-: #fff;
+  --mainColor-: #d87a22;
+}

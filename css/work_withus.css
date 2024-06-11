@@ -1,0 +1,316 @@
+@media screen and (min-width: 1500px) {
+  .work_withus {
+    min-height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/imgs/pexels-tima-miroshnichenko-5685770.jpg");
+  }
+
+  .work_withus .text {
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .work_withus .text h1 {
+    color: var(--servicesColor-);
+    font-size: 80px;
+  }
+
+  .work_withus .text p {
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--servicesColor-);
+    margin-bottom: 20px;
+  }
+
+  .work_withus .text a {
+    display: block;
+    width: 60%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.175s ease-in;
+    background: var(--servicesColor-);
+    color: var(--textColor-);
+  }
+
+  .work_withus .text a:hover {
+    background-color: var(--mainColor-);
+    color: var(--servicesColor-);
+  }
+}
+
+@media screen and (1200px <= width <= 1500px) {
+  .work_withus {
+    min-height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/imgs/pexels-tima-miroshnichenko-5685770.jpg");
+  }
+
+  .work_withus .text {
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .work_withus .text h1 {
+    color: var(--servicesColor-);
+    font-size: 80px;
+  }
+
+  .work_withus .text p {
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--servicesColor-);
+    margin-bottom: 20px;
+  }
+
+  .work_withus .text a {
+    display: block;
+    width: 60%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.175s ease-in;
+    background: var(--servicesColor-);
+    color: var(--textColor-);
+  }
+
+  .work_withus .text a:hover {
+    background-color: var(--mainColor-);
+    color: var(--servicesColor-);
+  }
+}
+@media screen and (992px <= width <= 1199px) {
+  .work_withus {
+    min-height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/imgs/pexels-tima-miroshnichenko-5685770.jpg");
+  }
+
+  .work_withus .text {
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .work_withus .text h1 {
+    color: var(--servicesColor-);
+    font-size: 80px;
+  }
+
+  .work_withus .text p {
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--servicesColor-);
+    margin-bottom: 20px;
+  }
+
+  .work_withus .text a {
+    display: block;
+    width: 60%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.175s ease-in;
+    background: var(--servicesColor-);
+    color: var(--textColor-);
+  }
+
+  .work_withus .text a:hover {
+    background-color: var(--mainColor-);
+    color: var(--servicesColor-);
+  }
+}
+
+@media screen and (768px <= width <= 992px) {
+  .work_withus {
+    min-height: 430px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/imgs/pexels-tima-miroshnichenko-5685770.jpg");
+  }
+
+  .work_withus .text {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .work_withus .text h1 {
+    color: var(--servicesColor-);
+    font-size: 80px;
+  }
+
+  .work_withus .text p {
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--servicesColor-);
+    margin-bottom: 20px;
+  }
+
+  .work_withus .text a {
+    display: block;
+    width: 60%;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.175s ease-in;
+    background: var(--servicesColor-);
+    color: var(--textColor-);
+  }
+
+  .work_withus .text a:hover {
+    background-color: var(--mainColor-);
+    color: var(--servicesColor-);
+  }
+}
+
+@media screen and (575px <= width <= 768px) {
+  .work_withus {
+    min-height: 430px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/imgs/pexels-tima-miroshnichenko-5685770.jpg");
+  }
+
+  .work_withus .text {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .work_withus .text h1 {
+    color: var(--servicesColor-);
+    font-size: 70px;
+  }
+
+  .work_withus .text p {
+    font-size: 17px;
+    line-height: 25px;
+    color: var(--servicesColor-);
+    margin-bottom: 20px;
+  }
+
+  .work_withus .text a {
+    display: block;
+    width: 50%;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 16.5px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.175s ease-in;
+    background: var(--servicesColor-);
+    color: var(--textColor-);
+  }
+
+  .work_withus .text a:hover {
+    background-color: var(--mainColor-);
+    color: var(--servicesColor-);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .work_withus {
+    padding: 20px 0px;
+    min-height: 430px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("/imgs/pexels-tima-miroshnichenko-5685770.jpg");
+  }
+
+  .work_withus .text {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .work_withus .text h1 {
+    color: var(--servicesColor-);
+    font-size: 65px;
+  }
+
+  .work_withus .text p {
+    font-size: 17px;
+    line-height: 25px;
+    color: var(--servicesColor-);
+    margin-bottom: 20px;
+  }
+
+  .work_withus .text a {
+    display: block;
+    width: 80%;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 16.5px;
+    border-radius: 6px;
+    border: none;
+    transition: all 0.175s ease-in;
+    background: var(--servicesColor-);
+    color: var(--textColor-);
+  }
+
+  .work_withus .text a:hover {
+    background-color: var(--mainColor-);
+    color: var(--servicesColor-);
+  }
+}

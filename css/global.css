@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: bebas;
+}
+
+p,
+a,
+input,
+button,
+small,
+li,
+label {
+  font-family: gelion;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+.services,
+.staging_expertise,
+.appt,
+.slider,
+.process,
+.work_withus,
+.market_strat {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+    max-width: 1350px;
+
+    margin: 0 auto;
+  }
+}
+
+@media screen and (1200px <= width <= 1500px) {
+  .container {
+    max-width: 1140px;
+
+    margin: 0 auto;
+  }
+
+  .padded_page {
+    min-height: 92dvh;
+    padding: 75px 0px;
+  }
+}
+@media screen and (992px <= width <= 1199px) {
+  .container {
+    max-width: 960px;
+
+    margin: 0 auto;
+  }
+}
+
+@media screen and (768px <= width <= 992px) {
+  .container {
+    max-width: 740px;
+
+    margin: 0 auto;
+  }
+}
+
+@media screen and (575px <= width <= 768px) {
+  .container {
+    max-width: 540px;
+
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

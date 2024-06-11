@@ -1,0 +1,128 @@
+@media screen and (min-width: 1500px) {
+  .services {
+    min-height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+  }
+
+  .services_text h1 {
+    font-size: 80px;
+    letter-spacing: 3px;
+    color: var(--servicesColor-);
+  }
+}
+
+@media screen and (1200px <= width <= 1500px) {
+  .services {
+    min-height: 430px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+  }
+
+  .services_text h1 {
+    font-size: 75px;
+    letter-spacing: 3px;
+    color: var(--servicesColor-);
+  }
+}
+@media screen and (992px <= width <= 1199px) {
+  .services {
+    min-height: 410px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+  }
+
+  .services_text h1 {
+    font-size: 73px;
+    letter-spacing: 3px;
+    color: var(--servicesColor-);
+  }
+}
+
+@media screen and (768px <= width <= 992px) {
+  .services {
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+  }
+
+  .services_text h1 {
+    font-size: 70px;
+    letter-spacing: 3px;
+    color: var(--servicesColor-);
+  }
+}
+
+@media screen and (575px <= width <= 768px) {
+  .services {
+    min-height: 380px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+  }
+
+  .services_text h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    line-height: 60px;
+    letter-spacing: 3px;
+    color: var(--servicesColor-);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .services {
+    padding: 0px 20px;
+    min-height: 350px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    margin-bottom: 10px;
+  }
+
+  .services_text {
+    text-align: center;
+  }
+
+  .services_text h1 {
+    font-size: 55px;
+    line-height: 55px;
+    letter-spacing: 3px;
+    color: var(--servicesColor-);
+  }
+}
+
+#decor_guidance {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/imgs/decor.jpg");
+}
+
+#intentional_layout {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/imgs/layout.jpg");
+}
+
+#space_planning {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/imgs/space_planning.jpg");
+}
+
+#budget_planning {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/imgs/budget.jpg");
+}
